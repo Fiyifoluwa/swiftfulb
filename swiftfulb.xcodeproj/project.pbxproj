@@ -13,6 +13,7 @@
 		600AD35128634D1E000F3632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD35028634D1E000F3632 /* Preview Assets.xcassets */; };
 		602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DC28D6638800588C2F /* GridsLearning.swift */; };
 		602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */; };
+		602C00E228D6743500588C2F /* ButtonsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E128D6743500588C2F /* ButtonsLearning.swift */; };
 		60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0128CA6F990017529C /* FrameLearning.swift */; };
 		60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */; };
 		60D4543B28A7E47100437745 /* TextLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543A28A7E47100437745 /* TextLearning.swift */; };
@@ -37,6 +38,7 @@
 		600AD35028634D1E000F3632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		602C00DC28D6638800588C2F /* GridsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsLearning.swift; sourceTree = "<group>"; };
 		602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLearning.swift; sourceTree = "<group>"; };
+		602C00E128D6743500588C2F /* ButtonsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsLearning.swift; sourceTree = "<group>"; };
 		60BF2D0128CA6F990017529C /* FrameLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearning.swift; sourceTree = "<group>"; };
 		60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgAndOverlayLearning.swift; sourceTree = "<group>"; };
 		60D4543A28A7E47100437745 /* TextLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLearning.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				60D635CE28CD4E1C00F35EE2 /* ScrollViewLearning.swift */,
 				602C00DC28D6638800588C2F /* GridsLearning.swift */,
 				602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */,
+				602C00E128D6743500588C2F /* ButtonsLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -191,6 +194,7 @@
 				60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */,
 				600AD34C28634D1C000F3632 /* ContentView.swift in Sources */,
 				60D4543F28A7F66400437745 /* ColorsLearning.swift in Sources */,
+				602C00E228D6743500588C2F /* ButtonsLearning.swift in Sources */,
 				60D635C928CD3F1D00F35EE2 /* SpacersLearning.swift in Sources */,
 				602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */,
 				600AD34A28634D1C000F3632 /* swiftfulbApp.swift in Sources */,
