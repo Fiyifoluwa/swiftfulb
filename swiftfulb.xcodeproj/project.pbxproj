@@ -11,14 +11,46 @@
 		600AD34C28634D1C000F3632 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600AD34B28634D1C000F3632 /* ContentView.swift */; };
 		600AD34E28634D1E000F3632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD34D28634D1E000F3632 /* Assets.xcassets */; };
 		600AD35128634D1E000F3632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD35028634D1E000F3632 /* Preview Assets.xcassets */; };
+		602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DC28D6638800588C2F /* GridsLearning.swift */; };
+		602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */; };
+		60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0128CA6F990017529C /* FrameLearning.swift */; };
+		60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */; };
+		60D4543B28A7E47100437745 /* TextLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543A28A7E47100437745 /* TextLearning.swift */; };
+		60D4543D28A7EE8A00437745 /* ShapesLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543C28A7EE8A00437745 /* ShapesLearning.swift */; };
+		60D4543F28A7F66400437745 /* ColorsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543E28A7F66400437745 /* ColorsLearning.swift */; };
+		60D4544128A8050800437745 /* GradientsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4544028A8050800437745 /* GradientsLearning.swift */; };
+		60D4544328A80E0C00437745 /* IconsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4544228A80E0C00437745 /* IconsLearning.swift */; };
+		60D4544528A815CD00437745 /* ImageLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4544428A815CD00437745 /* ImageLearning.swift */; };
+		60D635C528CD335100F35EE2 /* StacksLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635C428CD335100F35EE2 /* StacksLearning.swift */; };
+		60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635C628CD3B1D00F35EE2 /* PaddingLearning.swift */; };
+		60D635C928CD3F1D00F35EE2 /* SpacersLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635C828CD3F1D00F35EE2 /* SpacersLearning.swift */; };
+		60D635CB28CD444D00F35EE2 /* InitsAndEnumsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635CA28CD444D00F35EE2 /* InitsAndEnumsLearning.swift */; };
+		60D635CD28CD4AAA00F35EE2 /* ForEachLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635CC28CD4AAA00F35EE2 /* ForEachLearning.swift */; };
+		60D635CF28CD4E1C00F35EE2 /* ScrollViewLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635CE28CD4E1C00F35EE2 /* ScrollViewLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		600AD34628634D1C000F3632 /* swiftfulb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftfulb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		600AD34628634D1C000F3632 /* Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		600AD34928634D1C000F3632 /* swiftfulbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftfulbApp.swift; sourceTree = "<group>"; };
 		600AD34B28634D1C000F3632 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		600AD34D28634D1E000F3632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600AD35028634D1E000F3632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		602C00DC28D6638800588C2F /* GridsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsLearning.swift; sourceTree = "<group>"; };
+		602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLearning.swift; sourceTree = "<group>"; };
+		60BF2D0128CA6F990017529C /* FrameLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearning.swift; sourceTree = "<group>"; };
+		60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgAndOverlayLearning.swift; sourceTree = "<group>"; };
+		60D4543A28A7E47100437745 /* TextLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLearning.swift; sourceTree = "<group>"; };
+		60D4543C28A7EE8A00437745 /* ShapesLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesLearning.swift; sourceTree = "<group>"; };
+		60D4543E28A7F66400437745 /* ColorsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsLearning.swift; sourceTree = "<group>"; };
+		60D4544028A8050800437745 /* GradientsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsLearning.swift; sourceTree = "<group>"; };
+		60D4544228A80E0C00437745 /* IconsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsLearning.swift; sourceTree = "<group>"; };
+		60D4544428A815CD00437745 /* ImageLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLearning.swift; sourceTree = "<group>"; };
+		60D635C428CD335100F35EE2 /* StacksLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksLearning.swift; sourceTree = "<group>"; };
+		60D635C628CD3B1D00F35EE2 /* PaddingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLearning.swift; sourceTree = "<group>"; };
+		60D635C828CD3F1D00F35EE2 /* SpacersLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersLearning.swift; sourceTree = "<group>"; };
+		60D635CA28CD444D00F35EE2 /* InitsAndEnumsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEnumsLearning.swift; sourceTree = "<group>"; };
+		60D635CC28CD4AAA00F35EE2 /* ForEachLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLearning.swift; sourceTree = "<group>"; };
+		60D635CE28CD4E1C00F35EE2 /* ScrollViewLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +75,7 @@
 		600AD34728634D1C000F3632 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				600AD34628634D1C000F3632 /* swiftfulb.app */,
+				600AD34628634D1C000F3632 /* Learning.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +85,22 @@
 			children = (
 				600AD34928634D1C000F3632 /* swiftfulbApp.swift */,
 				600AD34B28634D1C000F3632 /* ContentView.swift */,
+				60D4543A28A7E47100437745 /* TextLearning.swift */,
+				60D4543C28A7EE8A00437745 /* ShapesLearning.swift */,
+				60D4543E28A7F66400437745 /* ColorsLearning.swift */,
+				60D4544028A8050800437745 /* GradientsLearning.swift */,
+				60D4544228A80E0C00437745 /* IconsLearning.swift */,
+				60D4544428A815CD00437745 /* ImageLearning.swift */,
+				60BF2D0128CA6F990017529C /* FrameLearning.swift */,
+				60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */,
+				60D635C428CD335100F35EE2 /* StacksLearning.swift */,
+				60D635C628CD3B1D00F35EE2 /* PaddingLearning.swift */,
+				60D635C828CD3F1D00F35EE2 /* SpacersLearning.swift */,
+				60D635CA28CD444D00F35EE2 /* InitsAndEnumsLearning.swift */,
+				60D635CC28CD4AAA00F35EE2 /* ForEachLearning.swift */,
+				60D635CE28CD4E1C00F35EE2 /* ScrollViewLearning.swift */,
+				602C00DC28D6638800588C2F /* GridsLearning.swift */,
+				602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -84,7 +132,7 @@
 			);
 			name = swiftfulb;
 			productName = swiftfulb;
-			productReference = 600AD34628634D1C000F3632 /* swiftfulb.app */;
+			productReference = 600AD34628634D1C000F3632 /* Learning.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,8 +185,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D4543B28A7E47100437745 /* TextLearning.swift in Sources */,
+				60D4544528A815CD00437745 /* ImageLearning.swift in Sources */,
+				60D635C528CD335100F35EE2 /* StacksLearning.swift in Sources */,
+				60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */,
 				600AD34C28634D1C000F3632 /* ContentView.swift in Sources */,
+				60D4543F28A7F66400437745 /* ColorsLearning.swift in Sources */,
+				60D635C928CD3F1D00F35EE2 /* SpacersLearning.swift in Sources */,
+				602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */,
 				600AD34A28634D1C000F3632 /* swiftfulbApp.swift in Sources */,
+				60D635CD28CD4AAA00F35EE2 /* ForEachLearning.swift in Sources */,
+				60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */,
+				60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */,
+				60D4543D28A7EE8A00437745 /* ShapesLearning.swift in Sources */,
+				60D4544128A8050800437745 /* GradientsLearning.swift in Sources */,
+				60D635CF28CD4E1C00F35EE2 /* ScrollViewLearning.swift in Sources */,
+				60D635CB28CD444D00F35EE2 /* InitsAndEnumsLearning.swift in Sources */,
+				60D4544328A80E0C00437745 /* IconsLearning.swift in Sources */,
+				602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,23 +331,26 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftfulb/Preview Content\"";
+				DEVELOPMENT_TEAM = 27SFPPJ67T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fiyi.swiftfulb;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiyi.swiftfulthinkg;
+				PRODUCT_NAME = Learning;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,23 +362,26 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftfulb/Preview Content\"";
+				DEVELOPMENT_TEAM = 27SFPPJ67T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fiyi.swiftfulb;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiyi.swiftfulthinkg;
+				PRODUCT_NAME = Learning;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
