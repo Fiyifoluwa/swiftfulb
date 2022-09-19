@@ -16,6 +16,12 @@
 		602C00E228D6743500588C2F /* ButtonsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E128D6743500588C2F /* ButtonsLearning.swift */; };
 		602C00E428D6831900588C2F /* StateLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E328D6831900588C2F /* StateLearning.swift */; };
 		602C00E628D6867800588C2F /* ExtractionLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E528D6867800588C2F /* ExtractionLearning.swift */; };
+		602C00E828D68C1F00588C2F /* ExtractSubviewsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E728D68C1F00588C2F /* ExtractSubviewsLearning.swift */; };
+		602C00EA28D690B500588C2F /* BindingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E928D690B500588C2F /* BindingLearning.swift */; };
+		602C00EC28D6940D00588C2F /* ConditionalLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00EB28D6940D00588C2F /* ConditionalLearning.swift */; };
+		602C00EE28D8907500588C2F /* TernaryLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00ED28D8907500588C2F /* TernaryLearning.swift */; };
+		602C00F028D89C1200588C2F /* AnimationLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00EF28D89C1200588C2F /* AnimationLearning.swift */; };
+		602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F128D8A82000588C2F /* TimingLearning.swift */; };
 		60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0128CA6F990017529C /* FrameLearning.swift */; };
 		60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */; };
 		60D4543B28A7E47100437745 /* TextLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543A28A7E47100437745 /* TextLearning.swift */; };
@@ -43,6 +49,12 @@
 		602C00E128D6743500588C2F /* ButtonsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsLearning.swift; sourceTree = "<group>"; };
 		602C00E328D6831900588C2F /* StateLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLearning.swift; sourceTree = "<group>"; };
 		602C00E528D6867800588C2F /* ExtractionLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractionLearning.swift; sourceTree = "<group>"; };
+		602C00E728D68C1F00588C2F /* ExtractSubviewsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsLearning.swift; sourceTree = "<group>"; };
+		602C00E928D690B500588C2F /* BindingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingLearning.swift; sourceTree = "<group>"; };
+		602C00EB28D6940D00588C2F /* ConditionalLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalLearning.swift; sourceTree = "<group>"; };
+		602C00ED28D8907500588C2F /* TernaryLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryLearning.swift; sourceTree = "<group>"; };
+		602C00EF28D89C1200588C2F /* AnimationLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearning.swift; sourceTree = "<group>"; };
+		602C00F128D8A82000588C2F /* TimingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingLearning.swift; sourceTree = "<group>"; };
 		60BF2D0128CA6F990017529C /* FrameLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearning.swift; sourceTree = "<group>"; };
 		60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgAndOverlayLearning.swift; sourceTree = "<group>"; };
 		60D4543A28A7E47100437745 /* TextLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLearning.swift; sourceTree = "<group>"; };
@@ -110,6 +122,12 @@
 				602C00E128D6743500588C2F /* ButtonsLearning.swift */,
 				602C00E328D6831900588C2F /* StateLearning.swift */,
 				602C00E528D6867800588C2F /* ExtractionLearning.swift */,
+				602C00E728D68C1F00588C2F /* ExtractSubviewsLearning.swift */,
+				602C00E928D690B500588C2F /* BindingLearning.swift */,
+				602C00EB28D6940D00588C2F /* ConditionalLearning.swift */,
+				602C00ED28D8907500588C2F /* TernaryLearning.swift */,
+				602C00EF28D89C1200588C2F /* AnimationLearning.swift */,
+				602C00F128D8A82000588C2F /* TimingLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -194,12 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602C00F028D89C1200588C2F /* AnimationLearning.swift in Sources */,
+				602C00EC28D6940D00588C2F /* ConditionalLearning.swift in Sources */,
 				60D4543B28A7E47100437745 /* TextLearning.swift in Sources */,
 				60D4544528A815CD00437745 /* ImageLearning.swift in Sources */,
 				60D635C528CD335100F35EE2 /* StacksLearning.swift in Sources */,
 				60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */,
 				600AD34C28634D1C000F3632 /* ContentView.swift in Sources */,
 				60D4543F28A7F66400437745 /* ColorsLearning.swift in Sources */,
+				602C00EA28D690B500588C2F /* BindingLearning.swift in Sources */,
 				602C00E228D6743500588C2F /* ButtonsLearning.swift in Sources */,
 				60D635C928CD3F1D00F35EE2 /* SpacersLearning.swift in Sources */,
 				602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */,
@@ -207,8 +228,11 @@
 				60D635CD28CD4AAA00F35EE2 /* ForEachLearning.swift in Sources */,
 				60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */,
 				60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */,
+				602C00EE28D8907500588C2F /* TernaryLearning.swift in Sources */,
 				60D4543D28A7EE8A00437745 /* ShapesLearning.swift in Sources */,
+				602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */,
 				60D4544128A8050800437745 /* GradientsLearning.swift in Sources */,
+				602C00E828D68C1F00588C2F /* ExtractSubviewsLearning.swift in Sources */,
 				60D635CF28CD4E1C00F35EE2 /* ScrollViewLearning.swift in Sources */,
 				60D635CB28CD444D00F35EE2 /* InitsAndEnumsLearning.swift in Sources */,
 				60D4544328A80E0C00437745 /* IconsLearning.swift in Sources */,
