@@ -24,6 +24,11 @@
 		602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F128D8A82000588C2F /* TimingLearning.swift */; };
 		602C00F428D8BBD500588C2F /* TransitionLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F328D8BBD500588C2F /* TransitionLearning.swift */; };
 		602C00F628DC34C100588C2F /* SheetsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F528DC34C100588C2F /* SheetsLearning.swift */; };
+		602C00F828DC3F1600588C2F /* PopoverLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F728DC3F1600588C2F /* PopoverLearning.swift */; };
+		602C00FA28DC4EEB00588C2F /* NavLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F928DC4EEB00588C2F /* NavLearning.swift */; };
+		602C00FC28DC5D0800588C2F /* ListLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00FB28DC5D0800588C2F /* ListLearning.swift */; };
+		602C00FE28DC6FE600588C2F /* AlertLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00FD28DC6FE600588C2F /* AlertLearning.swift */; };
+		602C010028DC856100588C2F /* ActionSheetLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00FF28DC856100588C2F /* ActionSheetLearning.swift */; };
 		60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0128CA6F990017529C /* FrameLearning.swift */; };
 		60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */; };
 		60D4543B28A7E47100437745 /* TextLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543A28A7E47100437745 /* TextLearning.swift */; };
@@ -59,6 +64,11 @@
 		602C00F128D8A82000588C2F /* TimingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingLearning.swift; sourceTree = "<group>"; };
 		602C00F328D8BBD500588C2F /* TransitionLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionLearning.swift; sourceTree = "<group>"; };
 		602C00F528DC34C100588C2F /* SheetsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsLearning.swift; sourceTree = "<group>"; };
+		602C00F728DC3F1600588C2F /* PopoverLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverLearning.swift; sourceTree = "<group>"; };
+		602C00F928DC4EEB00588C2F /* NavLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLearning.swift; sourceTree = "<group>"; };
+		602C00FB28DC5D0800588C2F /* ListLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLearning.swift; sourceTree = "<group>"; };
+		602C00FD28DC6FE600588C2F /* AlertLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLearning.swift; sourceTree = "<group>"; };
+		602C00FF28DC856100588C2F /* ActionSheetLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetLearning.swift; sourceTree = "<group>"; };
 		60BF2D0128CA6F990017529C /* FrameLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearning.swift; sourceTree = "<group>"; };
 		60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgAndOverlayLearning.swift; sourceTree = "<group>"; };
 		60D4543A28A7E47100437745 /* TextLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLearning.swift; sourceTree = "<group>"; };
@@ -134,6 +144,11 @@
 				602C00F128D8A82000588C2F /* TimingLearning.swift */,
 				602C00F328D8BBD500588C2F /* TransitionLearning.swift */,
 				602C00F528DC34C100588C2F /* SheetsLearning.swift */,
+				602C00F728DC3F1600588C2F /* PopoverLearning.swift */,
+				602C00F928DC4EEB00588C2F /* NavLearning.swift */,
+				602C00FB28DC5D0800588C2F /* ListLearning.swift */,
+				602C00FD28DC6FE600588C2F /* AlertLearning.swift */,
+				602C00FF28DC856100588C2F /* ActionSheetLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -218,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602C00FA28DC4EEB00588C2F /* NavLearning.swift in Sources */,
 				602C00F028D89C1200588C2F /* AnimationLearning.swift in Sources */,
 				602C00EC28D6940D00588C2F /* ConditionalLearning.swift in Sources */,
 				60D4543B28A7E47100437745 /* TextLearning.swift in Sources */,
@@ -239,14 +255,18 @@
 				60D4543D28A7EE8A00437745 /* ShapesLearning.swift in Sources */,
 				602C00F428D8BBD500588C2F /* TransitionLearning.swift in Sources */,
 				602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */,
+				602C00F828DC3F1600588C2F /* PopoverLearning.swift in Sources */,
 				60D4544128A8050800437745 /* GradientsLearning.swift in Sources */,
 				602C00E828D68C1F00588C2F /* ExtractSubviewsLearning.swift in Sources */,
+				602C00FC28DC5D0800588C2F /* ListLearning.swift in Sources */,
 				60D635CF28CD4E1C00F35EE2 /* ScrollViewLearning.swift in Sources */,
+				602C00FE28DC6FE600588C2F /* AlertLearning.swift in Sources */,
 				60D635CB28CD444D00F35EE2 /* InitsAndEnumsLearning.swift in Sources */,
 				60D4544328A80E0C00437745 /* IconsLearning.swift in Sources */,
 				602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */,
 				602C00E628D6867800588C2F /* ExtractionLearning.swift in Sources */,
 				602C00E428D6831900588C2F /* StateLearning.swift in Sources */,
+				602C010028DC856100588C2F /* ActionSheetLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
