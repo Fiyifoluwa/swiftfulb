@@ -22,6 +22,8 @@
 		602C00EE28D8907500588C2F /* TernaryLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00ED28D8907500588C2F /* TernaryLearning.swift */; };
 		602C00F028D89C1200588C2F /* AnimationLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00EF28D89C1200588C2F /* AnimationLearning.swift */; };
 		602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F128D8A82000588C2F /* TimingLearning.swift */; };
+		602C00F428D8BBD500588C2F /* TransitionLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F328D8BBD500588C2F /* TransitionLearning.swift */; };
+		602C00F628DC34C100588C2F /* SheetsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00F528DC34C100588C2F /* SheetsLearning.swift */; };
 		60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0128CA6F990017529C /* FrameLearning.swift */; };
 		60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */; };
 		60D4543B28A7E47100437745 /* TextLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543A28A7E47100437745 /* TextLearning.swift */; };
@@ -55,6 +57,8 @@
 		602C00ED28D8907500588C2F /* TernaryLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryLearning.swift; sourceTree = "<group>"; };
 		602C00EF28D89C1200588C2F /* AnimationLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLearning.swift; sourceTree = "<group>"; };
 		602C00F128D8A82000588C2F /* TimingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingLearning.swift; sourceTree = "<group>"; };
+		602C00F328D8BBD500588C2F /* TransitionLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionLearning.swift; sourceTree = "<group>"; };
+		602C00F528DC34C100588C2F /* SheetsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsLearning.swift; sourceTree = "<group>"; };
 		60BF2D0128CA6F990017529C /* FrameLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearning.swift; sourceTree = "<group>"; };
 		60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgAndOverlayLearning.swift; sourceTree = "<group>"; };
 		60D4543A28A7E47100437745 /* TextLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLearning.swift; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 				602C00ED28D8907500588C2F /* TernaryLearning.swift */,
 				602C00EF28D89C1200588C2F /* AnimationLearning.swift */,
 				602C00F128D8A82000588C2F /* TimingLearning.swift */,
+				602C00F328D8BBD500588C2F /* TransitionLearning.swift */,
+				602C00F528DC34C100588C2F /* SheetsLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -217,6 +223,7 @@
 				60D4543B28A7E47100437745 /* TextLearning.swift in Sources */,
 				60D4544528A815CD00437745 /* ImageLearning.swift in Sources */,
 				60D635C528CD335100F35EE2 /* StacksLearning.swift in Sources */,
+				602C00F628DC34C100588C2F /* SheetsLearning.swift in Sources */,
 				60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */,
 				600AD34C28634D1C000F3632 /* ContentView.swift in Sources */,
 				60D4543F28A7F66400437745 /* ColorsLearning.swift in Sources */,
@@ -230,6 +237,7 @@
 				60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */,
 				602C00EE28D8907500588C2F /* TernaryLearning.swift in Sources */,
 				60D4543D28A7EE8A00437745 /* ShapesLearning.swift in Sources */,
+				602C00F428D8BBD500588C2F /* TransitionLearning.swift in Sources */,
 				602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */,
 				60D4544128A8050800437745 /* GradientsLearning.swift in Sources */,
 				602C00E828D68C1F00588C2F /* ExtractSubviewsLearning.swift in Sources */,
