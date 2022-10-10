@@ -11,6 +11,7 @@
 		600AD34C28634D1C000F3632 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600AD34B28634D1C000F3632 /* ContentView.swift */; };
 		600AD34E28634D1E000F3632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD34D28634D1E000F3632 /* Assets.xcassets */; };
 		600AD35128634D1E000F3632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD35028634D1E000F3632 /* Preview Assets.xcassets */; };
+		6011A3BB28F44014002B2079 /* ContextMenuLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011A3BA28F44014002B2079 /* ContextMenuLearning.swift */; };
 		602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DC28D6638800588C2F /* GridsLearning.swift */; };
 		602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */; };
 		602C00E228D6743500588C2F /* ButtonsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E128D6743500588C2F /* ButtonsLearning.swift */; };
@@ -51,6 +52,7 @@
 		600AD34B28634D1C000F3632 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		600AD34D28634D1E000F3632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600AD35028634D1E000F3632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6011A3BA28F44014002B2079 /* ContextMenuLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuLearning.swift; sourceTree = "<group>"; };
 		602C00DC28D6638800588C2F /* GridsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsLearning.swift; sourceTree = "<group>"; };
 		602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLearning.swift; sourceTree = "<group>"; };
 		602C00E128D6743500588C2F /* ButtonsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsLearning.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				602C00FB28DC5D0800588C2F /* ListLearning.swift */,
 				602C00FD28DC6FE600588C2F /* AlertLearning.swift */,
 				602C00FF28DC856100588C2F /* ActionSheetLearning.swift */,
+				6011A3BA28F44014002B2079 /* ContextMenuLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -238,6 +241,7 @@
 				602C00EC28D6940D00588C2F /* ConditionalLearning.swift in Sources */,
 				60D4543B28A7E47100437745 /* TextLearning.swift in Sources */,
 				60D4544528A815CD00437745 /* ImageLearning.swift in Sources */,
+				6011A3BB28F44014002B2079 /* ContextMenuLearning.swift in Sources */,
 				60D635C528CD335100F35EE2 /* StacksLearning.swift in Sources */,
 				602C00F628DC34C100588C2F /* SheetsLearning.swift in Sources */,
 				60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */,
