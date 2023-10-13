@@ -11,8 +11,8 @@ struct BgAndOverlayLearning: View {
     var body: some View {
 //        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 //            .background(
-////                Color.red
-////                LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing)
+        ////                Color.red
+        ////                LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing)
 //                Circle()
 //                    .fill(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
 //                    .frame(width: 100, height: 100, alignment: .center)
@@ -20,7 +20,7 @@ struct BgAndOverlayLearning: View {
 //            .background(
 //                Circle()
 //                    .fill(LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: .leading, endPoint: .trailing)
-//)
+        // )
 //                    .frame(width: 120, height: 120, alignment: .center)
 //            )
 //        Circle()
@@ -36,7 +36,7 @@ struct BgAndOverlayLearning: View {
 //                    .fill(Color.purple)
 //                    .frame(width: 110, height: 110)
 //            )
-        
+
 //        Rectangle()
 //            .frame(width: 100, height: 100)
 //            .overlay(
@@ -50,7 +50,7 @@ struct BgAndOverlayLearning: View {
 //                    .frame(width: 150, height: 150)
 //                , alignment: .bottomTrailing
 //            )
-        
+
         Image(systemName: "heart.fill")
             .font(.system(size: 40))
             .foregroundColor(Color.white)
@@ -60,21 +60,23 @@ struct BgAndOverlayLearning: View {
                         LinearGradient(
                             gradient: Gradient(colors: [Color.purple, Color.pink]),
                             startPoint: .topLeading,
-                            endPoint: .bottomTrailing)
+                            endPoint: .bottomTrailing
+                        )
                     )
                     .frame(width: 100, height: 100)
                     .shadow(color: Color(red: 1.0, green: -0.002, blue: -0.004, opacity: 0.337), radius: 10, x: 0, y: 10)
                     .overlay(
-                            Circle()
-                                .fill(Color.blue)
-                                .frame(width: 35, height: 35)
-                                .overlay(
+                        Circle()
+                            .fill(Color.blue)
+                            .frame(width: 35, height: 35)
+                            .overlay(
                                 Text("5")
                                     .font(.headline)
                                     .foregroundColor(Color.white)
-                                )
-                                .shadow(color: Color(red: 1.0, green: -0.002, blue: -0.004, opacity: 0.337), radius: 10, x: 5, y: 5)
-                        , alignment: .bottomTrailing)
+                            )
+                            .shadow(color: Color(red: 1.0, green: -0.002, blue: -0.004, opacity: 0.337), radius: 10, x: 5, y: 5),
+                        alignment: .bottomTrailing
+                    )
             )
     }
 }

@@ -66,18 +66,17 @@ struct StacksLearning: View {
 //                .foregroundColor(Color.black)
 //
 //        }
-        
-        VStack (spacing: 50 ){
-            
-            ZStack{
+
+        VStack(spacing: 50) {
+            ZStack {
                 Circle()
                     .frame(width: 100, height: 100, alignment: .center)
-                
+
                 Text("1")
                     .font(.title)
                     .foregroundColor(Color.white)
             }
-            
+
             Text("1")
                 .font(.title)
                 .foregroundColor(Color.white)

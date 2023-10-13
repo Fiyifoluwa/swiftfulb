@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct BindingLearning: View {
-    
-    @State var bgColor: Color = Color.green
+    @State var bgColor: Color = .green
     @State var title: String = "Title"
-    
+
     var body: some View {
-        ZStack{
+        ZStack {
             bgColor.edgesIgnoringSafeArea(.all)
-            
+
             VStack {
                 Text(title.uppercased())
                     .foregroundColor(.white)
@@ -26,11 +25,10 @@ struct BindingLearning: View {
 }
 
 struct ButtonView: View {
-    
     @Binding var bgColor: Color
-    @State var buttonColor: Color = Color.blue
+    @State var buttonColor: Color = .blue
     @Binding var title: String
-    
+
     var body: some View {
         Button {
             bgColor = .orange

@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ListLearning: View {
     @State var fruits: [String] = [
-    "apple", "orange", "Banana", "Peach"
+        "apple", "orange", "Banana", "Peach",
     ]
-    
+
     @State var veggies: [String] = [
-        "Tomato", "Carrot", "Broccoli", "Cabbage"
+        "Tomato", "Carrot", "Broccoli", "Cabbage",
     ]
-    
+
     var body: some View {
         NavigationView {
             List {
@@ -29,18 +29,18 @@ struct ListLearning: View {
 //                            .background(.pink)
                             .padding(.vertical)
                     }
-                    .onDelete ( perform: delete )
-                    .onMove ( perform: move )
+                    .onDelete(perform: delete)
+                    .onMove(perform: move)
                     .listRowBackground(Color.blue)
                 } header: {
-                    HStack{
+                    HStack {
                         Text("Fruits")
                         Image(systemName: "flame.fill")
                     }
                     .font(.subheadline)
                     .foregroundColor(.orange)
                 }
-                
+
                 Section {
                     ForEach(veggies, id: \.self) {
                         veggies in
@@ -60,25 +60,25 @@ struct ListLearning: View {
         }
         .accentColor(.red)
     }
-    
-    var AddButton : some View {
-        Button("Add"){
+
+    var AddButton: some View {
+        Button("Add") {
             add()
         }
     }
-    
-    func delete (indexSet: IndexSet){
+
+    func delete(indexSet: IndexSet) {
         fruits.remove(atOffsets: indexSet)
     }
-    
-    func move (indices: IndexSet, newOffset: Int){
+
+    func move(indices: IndexSet, newOffset: Int) {
         fruits.move(
             fromOffsets: indices,
             toOffset: newOffset
         )
     }
-    
-    func add (){
+
+    func add() {
         fruits.append("Coconut")
     }
 }

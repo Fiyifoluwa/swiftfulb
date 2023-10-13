@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct SheetsLearning: View {
-    
     @State var showSheet: Bool = false
-    
+
     var body: some View {
-        ZStack{
+        ZStack {
             Color.green
                 .edgesIgnoringSafeArea(.all)
-            
+
             Button {
                 showSheet.toggle()
             } label: {
@@ -34,19 +33,17 @@ struct SheetsLearning: View {
 //                SecondScreen()
 //            }
         }
-        
     }
 }
 
 struct SecondScreen: View {
-    
     @Environment(\.presentationMode) var presentationMode
-    
+
     var body: some View {
-        ZStack(alignment: .topLeading){
+        ZStack(alignment: .topLeading) {
             Color.red
                 .edgesIgnoringSafeArea(.all)
-            
+
             Button {
                 presentationMode.wrappedValue.dismiss()
             } label: {

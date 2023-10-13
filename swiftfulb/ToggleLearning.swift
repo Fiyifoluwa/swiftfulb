@@ -9,19 +9,17 @@ import SwiftUI
 
 struct ToggleLearning: View {
     @State var toggleIsOn: Bool = false
-    
-    
+
     var body: some View {
         VStack {
-            HStack{
-            Text("Status:")
+            HStack {
+                Text("Status:")
                 Text(toggleIsOn ? "Online" : "Offline")
             }
             Toggle(isOn: $toggleIsOn) {
                 Text("Change status")
             }
             .toggleStyle(SwitchToggleStyle(tint: .red))
-            
             Spacer()
         }
         .padding(.horizontal, 100)

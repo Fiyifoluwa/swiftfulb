@@ -11,28 +11,28 @@ struct SafeAreaLearning: View {
     var body: some View {
 //        older versions of swiftUI were such that the background would have a clear safe area and boundary but that isnt the case anymore. This would have been the case where the background of the Z stack would have had the method to ignore the safearea all around.
 //        ZStack {
-////            background
+        ////            background
 //            Color.blue
 //                .edgesIgnoringSafeArea(.all)
 //
 //
-////            foreground
+        ////            foreground
 //            VStack {
 //                Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
 //                Spacer()
 //
 //            }
 //            .frame(maxWidth: .infinity, maxHeight: .infinity)
-////            .background(.red)
+        ////            .background(.red)
 //        }
-        ScrollView{
+        ScrollView {
             VStack {
                 Text("Title goes here")
                     .font(.largeTitle)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                
-                ForEach(0..<10, content: {
-                    index in
+                    .frame(maxWidth: .infinity, alignment: .leading)
+
+                ForEach(0 ..< 10, content: {
+                    _ in
                     RoundedRectangle(cornerRadius: 25)
                         .fill(.white)
                         .frame(height: 150)

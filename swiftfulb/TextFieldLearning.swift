@@ -10,55 +10,55 @@ import SwiftUI
 struct TextFieldLearning: View {
     @State var textFieldText: String = ""
     @State var dataArray: [String] = []
-    
+
     var body: some View {
-        NavigationView{
+        NavigationView {
             VStack {
                 TextField("Type something here...", text: $textFieldText)
-        //            .textFieldStyle(RoundedBorderTextFieldStyle())
+                    //            .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
                     .background(Color.gray.opacity(0.3).cornerRadius(10))
                     .foregroundColor(.red)
-                .font(.headline)
-                
+                    .font(.headline)
+
                 Button {
-                    if textIsAppropriate(){
+                    if textIsAppropriate() {
                         saveText()
                     }
-                    
+
                 } label: {
                     Text("Save".uppercased())
                         .padding()
                         .frame(maxWidth: .infinity)
                         .background(
                             textIsAppropriate() ?
-                            Color.blue : Color.gray
+                                Color.blue : Color.gray
                         )
                         .cornerRadius(10)
                         .foregroundColor(.white)
-                    .font(.headline)
+                        .font(.headline)
                 }
                 .disabled(!textIsAppropriate())
-                
-                ForEach(dataArray, id: \.self){data in
+
+                ForEach(dataArray, id: \.self) { data in
                     Text(data)
                 }
-                
-            Spacer()
+
+                Spacer()
             }
             .padding()
             .navigationTitle("Textfield Bootcamp!")
         }
     }
-    
-    func textIsAppropriate () -> Bool {
+
+    func textIsAppropriate() -> Bool {
 //        check text
         if textFieldText.count >= 3 {
             return true
         }
         return false
     }
-    
+
     func saveText() {
         dataArray.append(textFieldText)
         textFieldText = ""

@@ -10,18 +10,17 @@ import SwiftUI
 struct TextEditorLearning: View {
     @State var textEditorText: String = ""
     @State var savedText: String = ""
-    
-    
+
     var body: some View {
-        NavigationView{
-            VStack{
+        NavigationView {
+            VStack {
                 TextEditor(text: $textEditorText)
                     .frame(height: 250)
 //                    .foregroundColor(.yellow)
 //                color multiply is the way to add background to a text editor in swiftui. major problem is that you have to ignore foreground color if you intend to change background of the texteditor using color multiply
                     .colorMultiply(Color.secondary)
                     .cornerRadius(10)
-                
+
                 Button {
                     savedText = textEditorText
                 } label: {
@@ -33,7 +32,7 @@ struct TextEditorLearning: View {
                         .background(Color.blue)
                         .cornerRadius(10)
                 }
-                
+
                 Text(savedText)
                 Spacer()
             }

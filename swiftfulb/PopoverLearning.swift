@@ -8,16 +8,14 @@
 import SwiftUI
 
 struct PopoverLearning: View {
-    
     @State var showNewScreen: Bool = false
-    
-    
+
     var body: some View {
-        ZStack{
+        ZStack {
             Color.orange
                 .edgesIgnoringSafeArea(.all)
-            
-            VStack{
+
+            VStack {
                 Button {
                     showNewScreen.toggle()
                 } label: {
@@ -27,16 +25,15 @@ struct PopoverLearning: View {
                         .padding(20)
                         .background(Color.white.cornerRadius(10))
                 }
-                
+
                 Spacer()
             }
-            
+
             //                METHOD 1 - SHEET
             //                .sheet(isPresented: $showNewScreen) {
             //                    NewScreen()
             //                }
-                            
-           
+
             //                METHOD 2 - TRANSITION
 //            ZStack{
 //                if showNewScreen {
@@ -47,7 +44,7 @@ struct PopoverLearning: View {
 //                }
 //            }
 //            .zIndex(2.0)
-            
+
 //            METHOD 3 - ANIMATION OFFSET
             NewScreen(showNewScreen: $showNewScreen)
                 .padding(.top, 100)
@@ -58,15 +55,14 @@ struct PopoverLearning: View {
 }
 
 struct NewScreen: View {
-    
     @Environment(\.presentationMode) var presentationMode
     @Binding var showNewScreen: Bool
-    
+
     var body: some View {
-        ZStack(alignment: .topLeading){
+        ZStack(alignment: .topLeading) {
             Color.purple
                 .edgesIgnoringSafeArea(.all)
-            
+
             Button {
 //                presentationMode.wrappedValue.dismiss()
                 showNewScreen.toggle()

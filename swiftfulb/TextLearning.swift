@@ -13,7 +13,7 @@ struct TextLearning: View {
 //            .font(.body)
 //            .fontWeight(.semibold)
 //            .bold()
-////            .underline()
+            ////            .underline()
 //            .italic()
 //            .strikethrough()
 //            .underline(true, color: Color.cyan)

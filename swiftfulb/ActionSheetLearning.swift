@@ -9,20 +9,19 @@ import SwiftUI
 
 struct ActionSheetLearning: View {
     @State var isVisible: Bool = false
-    
+
     @State var actionSheetOption: actionSheetOptions = .isOtherPost
-    
+
     enum actionSheetOptions {
         case isMyPost
         case isOtherPost
     }
-    
+
 //    @State v
-    
-    
+
     var body: some View {
         VStack {
-            HStack{
+            HStack {
                 Circle().frame(width: 30, height: 30)
                 Text("@username")
                 Spacer()
@@ -35,41 +34,35 @@ struct ActionSheetLearning: View {
                 .accentColor(.primary)
             }
             .padding(.horizontal)
-            
+
             Rectangle().aspectRatio(1.0, contentMode: .fit)
-            
+
         }.actionSheet(isPresented: $isVisible, content: getActionSheet)
     }
-    
-    func getActionSheet () -> ActionSheet {
-        let shareButton: ActionSheet.Button = .default(Text("Share")){
-            
-        }
-        let reportButton: ActionSheet.Button = .destructive(Text("Report")){
-            
-        }
-        let deleteButton: ActionSheet.Button = .destructive(Text("Delete")){
-            
-        }
+
+    func getActionSheet() -> ActionSheet {
+        let shareButton: ActionSheet.Button = .default(Text("Share")) {}
+        let reportButton: ActionSheet.Button = .destructive(Text("Report")) {}
+        let deleteButton: ActionSheet.Button = .destructive(Text("Delete")) {}
         let cancelButton: ActionSheet.Button = .cancel()
-        let title=Text("What would you like to do?")
-        
+        let title = Text("What would you like to do?")
+
         switch actionSheetOption {
         case .isOtherPost:
             return ActionSheet(
                 title: title,
                 message: nil,
-                buttons: [shareButton, reportButton, cancelButton])
-            
+                buttons: [shareButton, reportButton, cancelButton]
+            )
+
         case .isMyPost:
             return ActionSheet(
                 title: title,
                 message: nil,
-                buttons: [shareButton, deleteButton, cancelButton])
+                buttons: [shareButton, deleteButton, cancelButton]
+            )
         }
-        
-        
-        
+
 //        let button1: ActionSheet.Button = .default(Text("Default"))
 //        let button2: ActionSheet.Button = .destructive(Text("Destructive"))
 //        let button3: ActionSheet.Button = .cancel()

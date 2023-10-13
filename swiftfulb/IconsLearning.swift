@@ -15,7 +15,7 @@ struct IconsLearning: View {
 //            .scaledToFit()
             .scaledToFill()
 //            .aspectRatio(contentMode: .fit)
-        // there is a .fill that could escape the frame
+            // there is a .fill that could escape the frame
             .font(.largeTitle)
 //            .font(.system(size: 200))
 //            .foregroundColor(.red)

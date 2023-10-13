@@ -11,13 +11,13 @@ struct GradientsLearning: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
             .fill(
-//                .red
+                //                .red
 //                LinearGradient(gradient: Gradient(colors: [.red, .orange]), startPoint: .topLeading, endPoint: .bottom)
 //                RadialGradient(gradient: Gradient(colors: [.orange, .red]), center: .leading, startRadius: 5, endRadius: 220)
 //            )
-                AngularGradient(gradient: Gradient(colors: [.orange, .red]), center: .topLeading, angle: .degrees(180 + 45)))
+                AngularGradient(gradient: Gradient(colors: [.orange, .red]), center: .topLeading, angle: .degrees(180 + 45))
+            )
             .frame(width: 300, height: 200)
-        
     }
 }
 

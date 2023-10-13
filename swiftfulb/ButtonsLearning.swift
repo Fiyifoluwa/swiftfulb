@@ -9,17 +9,17 @@ import SwiftUI
 
 struct ButtonsLearning: View {
     @State var title: String = "This is my title"
-    
+
     var body: some View {
-        VStack(spacing: 20){
+        VStack(spacing: 20) {
             Text(title)
                 .font(.title)
-            
+
             Button("Press me pls now!") {
                 self.title = "BUTTON WAS PRESSED. BUTTON BEEN DEY VEX"
             }
             .accentColor(.red)
-            
+
             Button {
                 self.title = "BUTTON 2 WAS PRESSED. BUTTON BEEN DEY VEX"
             } label: {
@@ -31,11 +31,11 @@ struct ButtonsLearning: View {
                     .padding(.horizontal, 20)
                     .background(
                         Color.blue
-                        .cornerRadius(10)
-                        .shadow(radius: 10)
+                            .cornerRadius(10)
+                            .shadow(radius: 10)
                     )
             }
-            
+
             Button {
                 self.title = "yamete kudasai"
             } label: {
@@ -49,11 +49,11 @@ struct ButtonsLearning: View {
                             .foregroundColor(.pink)
                     }
             }
-            
+
             Button {
                 self.title = "Button 4 hm"
             } label: {
-                 Text("finish".uppercased())
+                Text("finish".uppercased())
                     .font(.caption)
                     .bold()
                     .foregroundColor(.gray)
@@ -64,7 +64,6 @@ struct ButtonsLearning: View {
                             .stroke(Color.gray, lineWidth: 1.5)
                     )
             }
-
         }
     }
 }

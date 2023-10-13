@@ -19,29 +19,31 @@ struct ScrollViewLearning: View {
 //
 //            }
 //        })
-        ScrollView{
-            LazyVStack{
-                ForEach(0..<10, content: {index in
+        ScrollView {
+            LazyVStack {
+                ForEach(0 ..< 10, content: { _ in
                     ScrollView(.horizontal, showsIndicators: false, content: {
-                        LazyHStack{
+                        LazyHStack {
                             RoundedRectangle(cornerRadius: 25)
                                 .fill(.white)
                                 .frame(width: 200, height: 150)
-                                .shadow( radius: 10)
+                                .shadow(radius: 10)
                                 .padding()
-                            
-                            ForEach(0..<10, content: {index in
+
+                            ForEach(0 ..< 10, content: { _ in
                                 ScrollView(.horizontal, showsIndicators: false, content: {
-                                    HStack{
+                                    HStack {
                                         RoundedRectangle(cornerRadius: 25)
                                             .fill(.blue)
                                             .frame(width: 200, height: 150)
-                                            .shadow( radius: 10)
+                                            .shadow(radius: 10)
                                             .padding()
                                     }
-                                })                                })
+                                })
+                            })
                         }
-                    })                                })
+                    })
+                })
             }
         }
     }

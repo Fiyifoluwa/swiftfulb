@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct ConditionalLearning: View {
-    
     @State var showCircle: Bool = false
     @State var showRectangle: Bool = false
     @State var isLoading: Bool = false
-    
+
     var body: some View {
-        VStack(spacing: 20){
-            
-            Button("IS LOADING: \(isLoading.description.uppercased())"){
+        VStack(spacing: 20) {
+            Button("IS LOADING: \(isLoading.description.uppercased())") {
                 isLoading.toggle()
             }
-            
-            
+
             if isLoading {
                 ProgressView()
             }
-            
+
 //            Button("Circle Button: \(showCircle.description.uppercased())"){
 //                showCircle.toggle()
 //            }
@@ -48,9 +45,8 @@ struct ConditionalLearning: View {
 //                RoundedRectangle(cornerRadius: 25)
 //                    .frame(width: 200, height: 100)
 //            }
-            
-            Spacer()
 
+            Spacer()
         }
     }
 }

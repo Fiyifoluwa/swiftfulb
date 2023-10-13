@@ -8,11 +8,10 @@
 import SwiftUI
 
 struct ContextMenuLearning: View {
-    
-    @State var bgColor: Color = Color.purple
-    
+    @State var bgColor: Color = .purple
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 10.0){
+        VStack(alignment: .leading, spacing: 10.0) {
             Image(systemName: "house.fill")
                 .font(.title)
             Text("Swiftful Thinking")
@@ -44,9 +43,7 @@ struct ContextMenuLearning: View {
                     Image(systemName: "heart.fill")
                 }
             }
-
         }
-        
     }
 }
 

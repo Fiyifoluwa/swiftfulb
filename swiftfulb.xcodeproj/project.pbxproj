@@ -12,6 +12,10 @@
 		600AD34E28634D1E000F3632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD34D28634D1E000F3632 /* Assets.xcassets */; };
 		600AD35128634D1E000F3632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600AD35028634D1E000F3632 /* Preview Assets.xcassets */; };
 		6011A3BB28F44014002B2079 /* ContextMenuLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011A3BA28F44014002B2079 /* ContextMenuLearning.swift */; };
+		6011A3BD28F44786002B2079 /* TextFieldLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011A3BC28F44786002B2079 /* TextFieldLearning.swift */; };
+		6011A3BF28F4509F002B2079 /* TextEditorLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011A3BE28F4509F002B2079 /* TextEditorLearning.swift */; };
+		6011A3C128F45BDA002B2079 /* ToggleLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011A3C028F45BDA002B2079 /* ToggleLearning.swift */; };
+		6011A3C328F45E97002B2079 /* PickerLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6011A3C228F45E97002B2079 /* PickerLearning.swift */; };
 		602C00DD28D6638800588C2F /* GridsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DC28D6638800588C2F /* GridsLearning.swift */; };
 		602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */; };
 		602C00E228D6743500588C2F /* ButtonsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00E128D6743500588C2F /* ButtonsLearning.swift */; };
@@ -30,6 +34,13 @@
 		602C00FC28DC5D0800588C2F /* ListLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00FB28DC5D0800588C2F /* ListLearning.swift */; };
 		602C00FE28DC6FE600588C2F /* AlertLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00FD28DC6FE600588C2F /* AlertLearning.swift */; };
 		602C010028DC856100588C2F /* ActionSheetLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602C00FF28DC856100588C2F /* ActionSheetLearning.swift */; };
+		6076C6862AD8B83A004DB63B /* DarkModeLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076C6852AD8B83A004DB63B /* DarkModeLearning.swift */; };
+		6076C6882AD8BC6B004DB63B /* DocumentationLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6076C6872AD8BC6B004DB63B /* DocumentationLearning.swift */; };
+		608073C52ABB2D6C001BB85A /* ColorPickerLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608073C42ABB2D6C001BB85A /* ColorPickerLearning.swift */; };
+		60AB732F2AD88B3B00A92FF7 /* DatePickerLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB732E2AD88B3B00A92FF7 /* DatePickerLearning.swift */; };
+		60AB73312AD8901C00A92FF7 /* StepperLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB73302AD8901C00A92FF7 /* StepperLearning.swift */; };
+		60AB73332AD892A600A92FF7 /* SliderLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB73322AD892A600A92FF7 /* SliderLearning.swift */; };
+		60AB73352AD8A8CD00A92FF7 /* TabViewLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AB73342AD8A8CD00A92FF7 /* TabViewLearning.swift */; };
 		60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0128CA6F990017529C /* FrameLearning.swift */; };
 		60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */; };
 		60D4543B28A7E47100437745 /* TextLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D4543A28A7E47100437745 /* TextLearning.swift */; };
@@ -44,6 +55,8 @@
 		60D635CB28CD444D00F35EE2 /* InitsAndEnumsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635CA28CD444D00F35EE2 /* InitsAndEnumsLearning.swift */; };
 		60D635CD28CD4AAA00F35EE2 /* ForEachLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635CC28CD4AAA00F35EE2 /* ForEachLearning.swift */; };
 		60D635CF28CD4E1C00F35EE2 /* ScrollViewLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D635CE28CD4E1C00F35EE2 /* ScrollViewLearning.swift */; };
+		60EA5E1C2AD9B7F10061A7FE /* OnAppearLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA5E1B2AD9B7F10061A7FE /* OnAppearLearning.swift */; };
+		60EA5E202ADA0B130061A7FE /* IfLetGuardLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EA5E1F2ADA0B130061A7FE /* IfLetGuardLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +66,10 @@
 		600AD34D28634D1E000F3632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		600AD35028634D1E000F3632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6011A3BA28F44014002B2079 /* ContextMenuLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuLearning.swift; sourceTree = "<group>"; };
+		6011A3BC28F44786002B2079 /* TextFieldLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldLearning.swift; sourceTree = "<group>"; };
+		6011A3BE28F4509F002B2079 /* TextEditorLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorLearning.swift; sourceTree = "<group>"; };
+		6011A3C028F45BDA002B2079 /* ToggleLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleLearning.swift; sourceTree = "<group>"; };
+		6011A3C228F45E97002B2079 /* PickerLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerLearning.swift; sourceTree = "<group>"; };
 		602C00DC28D6638800588C2F /* GridsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsLearning.swift; sourceTree = "<group>"; };
 		602C00DF28D66BC100588C2F /* SafeAreaLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaLearning.swift; sourceTree = "<group>"; };
 		602C00E128D6743500588C2F /* ButtonsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsLearning.swift; sourceTree = "<group>"; };
@@ -71,6 +88,13 @@
 		602C00FB28DC5D0800588C2F /* ListLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLearning.swift; sourceTree = "<group>"; };
 		602C00FD28DC6FE600588C2F /* AlertLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLearning.swift; sourceTree = "<group>"; };
 		602C00FF28DC856100588C2F /* ActionSheetLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetLearning.swift; sourceTree = "<group>"; };
+		6076C6852AD8B83A004DB63B /* DarkModeLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeLearning.swift; sourceTree = "<group>"; };
+		6076C6872AD8BC6B004DB63B /* DocumentationLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentationLearning.swift; sourceTree = "<group>"; };
+		608073C42ABB2D6C001BB85A /* ColorPickerLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerLearning.swift; sourceTree = "<group>"; };
+		60AB732E2AD88B3B00A92FF7 /* DatePickerLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerLearning.swift; sourceTree = "<group>"; };
+		60AB73302AD8901C00A92FF7 /* StepperLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperLearning.swift; sourceTree = "<group>"; };
+		60AB73322AD892A600A92FF7 /* SliderLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderLearning.swift; sourceTree = "<group>"; };
+		60AB73342AD8A8CD00A92FF7 /* TabViewLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewLearning.swift; sourceTree = "<group>"; };
 		60BF2D0128CA6F990017529C /* FrameLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameLearning.swift; sourceTree = "<group>"; };
 		60BF2D0328CA7BC10017529C /* BgAndOverlayLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgAndOverlayLearning.swift; sourceTree = "<group>"; };
 		60D4543A28A7E47100437745 /* TextLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLearning.swift; sourceTree = "<group>"; };
@@ -85,6 +109,8 @@
 		60D635CA28CD444D00F35EE2 /* InitsAndEnumsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitsAndEnumsLearning.swift; sourceTree = "<group>"; };
 		60D635CC28CD4AAA00F35EE2 /* ForEachLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLearning.swift; sourceTree = "<group>"; };
 		60D635CE28CD4E1C00F35EE2 /* ScrollViewLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewLearning.swift; sourceTree = "<group>"; };
+		60EA5E1B2AD9B7F10061A7FE /* OnAppearLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearLearning.swift; sourceTree = "<group>"; };
+		60EA5E1F2ADA0B130061A7FE /* IfLetGuardLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfLetGuardLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +178,19 @@
 				602C00FD28DC6FE600588C2F /* AlertLearning.swift */,
 				602C00FF28DC856100588C2F /* ActionSheetLearning.swift */,
 				6011A3BA28F44014002B2079 /* ContextMenuLearning.swift */,
+				6011A3BC28F44786002B2079 /* TextFieldLearning.swift */,
+				6011A3BE28F4509F002B2079 /* TextEditorLearning.swift */,
+				6011A3C028F45BDA002B2079 /* ToggleLearning.swift */,
+				6011A3C228F45E97002B2079 /* PickerLearning.swift */,
+				608073C42ABB2D6C001BB85A /* ColorPickerLearning.swift */,
+				60AB732E2AD88B3B00A92FF7 /* DatePickerLearning.swift */,
+				60AB73302AD8901C00A92FF7 /* StepperLearning.swift */,
+				60AB73322AD892A600A92FF7 /* SliderLearning.swift */,
+				60AB73342AD8A8CD00A92FF7 /* TabViewLearning.swift */,
+				6076C6852AD8B83A004DB63B /* DarkModeLearning.swift */,
+				6076C6872AD8BC6B004DB63B /* DocumentationLearning.swift */,
+				60EA5E1B2AD9B7F10061A7FE /* OnAppearLearning.swift */,
+				60EA5E1F2ADA0B130061A7FE /* IfLetGuardLearning.swift */,
 				600AD34D28634D1E000F3632 /* Assets.xcassets */,
 				600AD34F28634D1E000F3632 /* Preview Content */,
 			);
@@ -237,13 +276,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				602C00FA28DC4EEB00588C2F /* NavLearning.swift in Sources */,
+				6011A3C328F45E97002B2079 /* PickerLearning.swift in Sources */,
 				602C00F028D89C1200588C2F /* AnimationLearning.swift in Sources */,
 				602C00EC28D6940D00588C2F /* ConditionalLearning.swift in Sources */,
+				60EA5E1C2AD9B7F10061A7FE /* OnAppearLearning.swift in Sources */,
 				60D4543B28A7E47100437745 /* TextLearning.swift in Sources */,
 				60D4544528A815CD00437745 /* ImageLearning.swift in Sources */,
 				6011A3BB28F44014002B2079 /* ContextMenuLearning.swift in Sources */,
 				60D635C528CD335100F35EE2 /* StacksLearning.swift in Sources */,
 				602C00F628DC34C100588C2F /* SheetsLearning.swift in Sources */,
+				60AB73312AD8901C00A92FF7 /* StepperLearning.swift in Sources */,
+				60AB73352AD8A8CD00A92FF7 /* TabViewLearning.swift in Sources */,
+				60AB73332AD892A600A92FF7 /* SliderLearning.swift in Sources */,
 				60D635C728CD3B1D00F35EE2 /* PaddingLearning.swift in Sources */,
 				600AD34C28634D1C000F3632 /* ContentView.swift in Sources */,
 				60D4543F28A7F66400437745 /* ColorsLearning.swift in Sources */,
@@ -254,8 +298,10 @@
 				600AD34A28634D1C000F3632 /* swiftfulbApp.swift in Sources */,
 				60D635CD28CD4AAA00F35EE2 /* ForEachLearning.swift in Sources */,
 				60BF2D0428CA7BC10017529C /* BgAndOverlayLearning.swift in Sources */,
+				6076C6862AD8B83A004DB63B /* DarkModeLearning.swift in Sources */,
 				60BF2D0228CA6F990017529C /* FrameLearning.swift in Sources */,
 				602C00EE28D8907500588C2F /* TernaryLearning.swift in Sources */,
+				60EA5E202ADA0B130061A7FE /* IfLetGuardLearning.swift in Sources */,
 				60D4543D28A7EE8A00437745 /* ShapesLearning.swift in Sources */,
 				602C00F428D8BBD500588C2F /* TransitionLearning.swift in Sources */,
 				602C00F228D8A82000588C2F /* TimingLearning.swift in Sources */,
@@ -265,8 +311,14 @@
 				602C00FC28DC5D0800588C2F /* ListLearning.swift in Sources */,
 				60D635CF28CD4E1C00F35EE2 /* ScrollViewLearning.swift in Sources */,
 				602C00FE28DC6FE600588C2F /* AlertLearning.swift in Sources */,
+				6076C6882AD8BC6B004DB63B /* DocumentationLearning.swift in Sources */,
+				6011A3C128F45BDA002B2079 /* ToggleLearning.swift in Sources */,
 				60D635CB28CD444D00F35EE2 /* InitsAndEnumsLearning.swift in Sources */,
+				6011A3BF28F4509F002B2079 /* TextEditorLearning.swift in Sources */,
+				608073C52ABB2D6C001BB85A /* ColorPickerLearning.swift in Sources */,
 				60D4544328A80E0C00437745 /* IconsLearning.swift in Sources */,
+				6011A3BD28F44786002B2079 /* TextFieldLearning.swift in Sources */,
+				60AB732F2AD88B3B00A92FF7 /* DatePickerLearning.swift in Sources */,
 				602C00E028D66BC100588C2F /* SafeAreaLearning.swift in Sources */,
 				602C00E628D6867800588C2F /* ExtractionLearning.swift in Sources */,
 				602C00E428D6831900588C2F /* StateLearning.swift in Sources */,

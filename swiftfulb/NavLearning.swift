@@ -10,13 +10,11 @@ import SwiftUI
 struct NavLearning: View {
     var body: some View {
         NavigationView {
-            ScrollView{
-                
+            ScrollView {
                 NavigationLink("Hello, World!") {
                     OtherScreen()
                 }
-                
-                
+
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
@@ -26,38 +24,35 @@ struct NavLearning: View {
 //            .navigationBarHidden(true)
             .navigationBarItems(
                 leading:
-                    HStack{
-                        Image(systemName: "person.fill")
-                        Image(systemName: "flame.fill")
-                    },
+                HStack {
+                    Image(systemName: "person.fill")
+                    Image(systemName: "flame.fill")
+                },
                 trailing: NavigationLink(destination: OtherScreen(), label: {
                     Image(systemName: "gear")
-                } )
+                })
                 .accentColor(.red)
             )
         }
-       
     }
 }
 
 struct OtherScreen: View {
-    
     @Environment(\.presentationMode) var presentationMode
-    
+
     var body: some View {
-        ZStack{
+        ZStack {
             Color.green.edgesIgnoringSafeArea(.all)
                 .navigationTitle("Green")
                 .navigationBarHidden(true)
-            
-            VStack{
-                Button("Back Button"){
+
+            VStack {
+                Button("Back Button") {
                     presentationMode.wrappedValue.dismiss()
                 }
-                
+
                 NavigationLink("Click") {
                     Text("Third SCreen")
-                    
                 }
             }
         }

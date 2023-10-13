@@ -9,15 +9,15 @@ import SwiftUI
 
 struct ExtractSubviewsLearning: View {
     var body: some View {
-        ZStack{
+        ZStack {
             Color.blue.edgesIgnoringSafeArea(.all)
-            
+
             contentLayer
         }
     }
-    
+
     var contentLayer: some View {
-        HStack{
+        HStack {
             MyItem(title: "Apples", count: 1, color: .green)
             MyItem(title: "Oranges", count: 5, color: .orange)
             MyItem(title: "Bananas", count: 20, color: .yellow)
@@ -35,10 +35,9 @@ struct MyItem: View {
     let title: String
     let count: Int
     let color: Color
-    
-    
+
     var body: some View {
-        VStack{
+        VStack {
             Text("\(count)")
             Text(title)
         }

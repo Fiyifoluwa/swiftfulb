@@ -13,7 +13,6 @@ struct ContentView: View {
             .font(.largeTitle)
             .fontWeight(.black)
             .foregroundColor(Color.green)
-            
     }
 }
 
