@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct SubmitTextFieldLearning: View {
+    @State private var text = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField("Placeholder", text: $text)
+                .submitLabel(.search)
+                .onSubmit {
+                    print("text")
+                }
+
+            TextField("Placeholder", text: $text)
+                .submitLabel(.route)
+                .onSubmit {
+                    print("text")
+                }
+
+            TextField("Placeholder", text: $text)
+                .submitLabel(.continue)
+                .onSubmit {
+                    print("text")
+                }
+        }
     }
 }
 

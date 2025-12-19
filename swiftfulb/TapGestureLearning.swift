@@ -8,8 +8,42 @@
 import SwiftUI
 
 struct TapGestureLearning: View {
+    @State var selected: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 40) {
+            RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                .frame(height: 200)
+                .foregroundColor(selected ? .green : .cyan)
+
+            Button(action: {
+                selected.toggle()
+            }, label: {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+                    .font(.headline)
+                    .foregroundColor(.white)
+                    .frame(height: 55)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/)
+                    .background(.blue)
+                    .cornerRadius(25)
+            })
+            
+            Text("Tap gesture guy")
+                .font(.headline)
+                .foregroundColor(.white)
+                .frame(height: 55)
+                .frame(maxWidth: /*@START_MENU_TOKEN@*/ .infinity/*@END_MENU_TOKEN@*/)
+                .background(.blue)
+                .cornerRadius(25)
+//                .onTapGesture {
+//                    selected.toggle()
+//                }
+                .onTapGesture(count: 2, perform: {
+                    selected.toggle()
+                })
+            
+            Spacer()
+        }
+        .padding(40)
     }
 }
 

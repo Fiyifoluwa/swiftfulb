@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct SwipeActionsLearning: View {
+    @State var fruits: [String] = ["apple", "orange", "Banana", "Peach"]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(fruits, id: \.self) {
+                Text($0.capitalized)
+                    .swipeActions(edge: .trailing, allowsFullSwipe: true) {
+                        Button("Archive") {}.tint(.gray)
+                        Button("Save") {}.tint(.blue)
+                        Button("Junk") {}.tint(.red)
+                    }
+                    .swipeActions(edge: .leading, allowsFullSwipe: true) {
+                        Button("Share") {}.tint(.yellow)
+                    }
+            }
+//            .onDelete(perform: delete)
+        }
+    }
+
+    func delete(indexSet: IndexSet) {
+        fruits.remove(atOffsets: indexSet)
     }
 }
 

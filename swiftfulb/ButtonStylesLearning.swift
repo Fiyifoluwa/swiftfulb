@@ -9,7 +9,48 @@ import SwiftUI
 
 struct ButtonStylesLearning: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button("Button 4 hm") {}
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .controlSize(.large)
+                .buttonStyle(.borderedProminent)
+//            .font(.headline)
+//            .foregroundColor(.gray)
+//            .padding()
+//            .padding(.horizontal, 10)
+            
+            Button("Button 4 hm") {}
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .controlSize(.regular)
+                .buttonStyle(.bordered)
+//            .font(.headline)
+//            .foregroundColor(.gray)
+//            .padding()
+//            .padding(.horizontal, 10)
+            
+            Button("Button 4 hm") {}
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .controlSize(.small)
+                .buttonStyle(.borderedProminent)
+//            .font(.headline)
+//            .foregroundColor(.gray)
+//            .padding()
+//            .padding(.horizontal, 10)
+            
+            Button("Button 4 hm") {}
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .controlSize(.mini)
+                .buttonStyle(.borderedProminent)
+//            .font(.headline)
+//            .foregroundColor(.gray)
+//            .padding()
+//            .padding(.horizontal, 10)
+        }
+        .padding(40)
     }
 }
 

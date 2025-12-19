@@ -16,9 +16,13 @@ struct IfLetGuardLearning: View {
         NavigationView {
             VStack {
                 Text("safe doings only 🙏🏽")
-                if let text = displayText {
-                    Text(text).font(/*@START_MENU_TOKEN@*/ .title/*@END_MENU_TOKEN@*/)
-                }
+//                if let text = displayText {
+//                    Text(text).font(/*@START_MENU_TOKEN@*/ .title/*@END_MENU_TOKEN@*/)
+//                }
+                
+//                Do not declare that variable exists, do not force unwrap values Which is displayText!
+                Text(displayText ?? "").font(/*@START_MENU_TOKEN@*/ .title/*@END_MENU_TOKEN@*/)
+                
                 if loading {
                     ProgressView()
                 }
@@ -26,7 +30,7 @@ struct IfLetGuardLearning: View {
             }
             .navigationTitle("Safe Coding")
             .onAppear {
-                loadData()
+                loadDataToo()
             }
         }
     }
@@ -40,6 +44,19 @@ struct IfLetGuardLearning: View {
             }
         } else {
             displayText = "Error, no user id!"
+        }
+    }
+
+    func loadDataToo() {
+        guard let id = userId else {
+            displayText = "Error, no user id!"
+            return
+        }
+        
+        loading = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            displayText = "This is new data. User ID is \(id)"
+            loading = false
         }
     }
 }

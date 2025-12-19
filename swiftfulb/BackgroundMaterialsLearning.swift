@@ -9,7 +9,23 @@ import SwiftUI
 
 struct BackgroundMaterialsLearning: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+
+            VStack {
+                RoundedRectangle(cornerRadius: 4)
+                    .frame(width: 50, height: 4)
+                    .padding(15)
+                Spacer()
+            }.frame(height: 350)
+                .frame(maxWidth: .infinity)
+                .background(.ultraThinMaterial)
+                .cornerRadius(30)
+        }
+        .ignoresSafeArea()
+        .background(
+            AsyncImage(url: URL(string: "https://picsum.photos/1000/1000")!)
+        )
     }
 }
 

@@ -7,9 +7,35 @@
 
 import SwiftUI
 
+// only for lists and tab views
+
 struct BadgesLearning: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            Text("Hello, World!")
+                .badge("NEW!")
+            Text("Hello, World!")
+            Text("Hello, World!")
+            Text("Hello, World!")
+        }
+//        TabView {
+//            Color.pink
+//                .tabItem {
+//                    Image(systemName: "heart.fill")
+//                    Text("Pink")
+//                }
+//                .badge("NEW")
+//
+//            Color.blue
+//                .tabItem { Image(systemName: "heart.fill")
+//                    Text("Blue")
+//                }
+//
+//            Color.yellow
+//                .tabItem { Image(systemName: "heart.fill")
+//                    Text("Yellow")
+//                }
+//        }
     }
 }
 

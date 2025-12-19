@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftfulbApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SubmitTextFieldLearning()
         }
     }
 }
